@@ -13,7 +13,7 @@ if($_SESSION['flag']=="allowed")
   
   <blockquote>
   <p>Welcome to Netmin. A web utility to manage your server.</p>
-  <footer>Developed By <cite title="Source Title">Ayush Garg</cite></footer>
+  <footer>Developed By <cite title="Source Title">Mashrin and Saumya</cite></footer>
 </blockquote>
   <form action="ip.php" method="post">
   <p><button class="btn btn-primary btn-lg" role="button" name="sub" value="ip">Know your IP!</button>
