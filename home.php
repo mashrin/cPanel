@@ -12,7 +12,7 @@ if($_SESSION['flag']=="allowed")
   <h1>Hello, world!</h1>
   
   <blockquote>
-  <p>Welcome to Netmin. A web utility to manage your server.</p>
+  <p>Welcome to open-source Network management tool. A web utility to manage your server.</p>
   <footer>Developed By <cite title="Source Title">Mashrin and Saumya</cite></footer>
 </blockquote>
   <form action="ip.php" method="post">

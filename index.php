@@ -14,7 +14,7 @@ $a = $_SESSION['flag'];
 <link type="text/css" rel="stylesheet" href="css/bootstrap.css" />
 <script src="js/bootstrap.min.js"> </script>
 <script src="js/bootstrap.js"></script>
-<title>NetMin</title>
+<title>Network Console Panel</title>
 </head>
 <?php
 
@@ -25,7 +25,7 @@ if($a == "not_root")
 
 	<div class="container">
       <form class="form-signin" role="form" action="login.php" method="post">
-      <h2 class="form-signin-heading">Please sign in</h2>
+      <h2 class="form-signin-heading">Sign in</h2>
       <input type="text"  name="name" class="form-control " placeholder="User Name"  required autofocus>
       <input type="password" name="password" class="form-control" placeholder="Password" required>
       <div>
@@ -48,7 +48,7 @@ else if($a == "wrong_input")
 <div class="container">
 
       <form class="form-signin" role="form" action="login.php" method="post">
-        <h2 class="form-signin-heading">Please sign in</h2>
+        <h2 class="form-signin-heading">Sign in</h2>
         <input type="text"  name="name" class="form-control " placeholder="User Name"  required autofocus>
         <input type="password" name="password" class="form-control" placeholder="Password" required>
         
@@ -71,7 +71,7 @@ echo '
 <div class="container">
 
       <form class="form-signin" role="form" action="login.php" method="post">
-        <h2 class="form-signin-heading">Please sign in</h2>
+        <h2 class="form-signin-heading">Sign in</h2>
         <input type="text"  name="name" class="form-control " placeholder="User Name"  required autofocus>
         <input type="password" name="password" class="form-control" placeholder="Password" required>
         <input class="btn btn-lg btn-primary btn-block" type="submit" value="Sign In">	
@@ -92,7 +92,7 @@ else
 <div class="container">
 
       <form class="form-signin" role="form" action="login.php" method="post">
-        <h2 class="form-signin-heading">Please sign in</h2>
+        <h2 class="form-signin-heading">Sign in</h2>
         <input type="text"  name="name" class="form-control " placeholder="User Name"  required autofocus>
         <input type="password" name="password" class="form-control" placeholder="Password" required>
         
