@@ -1,3 +1,4 @@
 # cpanel
-Console panel project
-Few files to be added.
+## Open source Console panel project
+All files added.
+Add readme, instructions and demo.
